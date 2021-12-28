@@ -1,5 +1,5 @@
 # cep-promise-graphql
-API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consumindo API REST do Cep-promise (Busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros: https://github.com/BrasilAPI/cep-promise).
+API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consumindo API REST do Cep-promise (Busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros). Link da API: https://github.com/BrasilAPI/cep-promise).
 
 ## Como baixar e rodar o projeto
 
