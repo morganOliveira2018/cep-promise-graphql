@@ -26,7 +26,7 @@ API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consum
 # Acessar o browser
   http://localhost:4000/
 
-query ExampleQuery($cep: String!) {
+query queryAdress($cep: String!) {
   endereco(cep: $cep) {
     cep
     bairro
@@ -35,6 +35,11 @@ query ExampleQuery($cep: String!) {
     logradouro
     uf
   }
+}
+
+QUERY VARIABLES:
+{
+  "cep": "04141100" 
 }
 
 ```
