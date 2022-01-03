@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="src/cep-promise-graphql.png" title="Cep-promise GraphQL" />
+  <img src="src/images/cep-promise-graphql.png" title="Cep-promise GraphQL" />
 </h1>
 
 # cep-promise-graphql
