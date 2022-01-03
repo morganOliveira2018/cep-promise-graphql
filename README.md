@@ -1,3 +1,7 @@
+<h1 align="center">
+  <img src="src/cep-promise-graphql.png" title="Cep-promise GraphQL" />
+</h1>
+
 # cep-promise-graphql
 API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consumindo API REST do [Cep-promise](https://github.com/BrasilAPI/cep-promise) (Busca por CEP integrado diretamente aos serviços dos Correios, ViaCEP e outros).
 
@@ -26,12 +30,11 @@ API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consum
 # Acessar o browser
   http://localhost:4000/
 
-query queryAdress($cep: String!) {
+query addressQuery($cep: String!) {
   endereco(cep: $cep) {
+    endereco
     bairro
-    estado
-    localidade
-    logradouro
+    cidade
     uf
   }
 }
