@@ -28,7 +28,6 @@ API GraphlQL que disponibiliza uma Query (consulta de endereço via CEP). Consum
 
 query queryAdress($cep: String!) {
   endereco(cep: $cep) {
-    cep
     bairro
     estado
     localidade
